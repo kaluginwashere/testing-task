@@ -1,0 +1,13 @@
+{
+    "name": "dmitriykalugin/test-landing",
+    "description": "test task",
+    "autoload": {
+        "psr-4": {
+            "Dmitriykalugin\\TestLanding\\": "src/"
+        }
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.281",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
